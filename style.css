@@ -172,21 +172,28 @@ body, html {
 
 .moscow-city-button:hover {
   background-color: #685480;
-  transition: 0.25s;
+  transition: 0.2s;
   
 }
 .moscow-city-button:hover:active{
   opacity: 0.9;
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
-
-
-
-
 
 
 .div-1600px {
   width: 1600px;
+}
+
+.list-advantages {
+  border-width: 1595px;
+  
+  display: grid;
+  border: 1px dashed;
+  border-radius: 10px;
+  background-color: rgba(82, 29, 179, 0.5);
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 
