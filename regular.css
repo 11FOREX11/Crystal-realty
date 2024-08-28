@@ -24,9 +24,10 @@ html, body {
 }
 
 .header-wrapper {
+  width: 100%;
   margin: auto;
   margin-bottom: 0px; 
-  max-width: 1400px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +52,7 @@ html, body {
   font-size: 1.1em;
   color: black;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 20px;
   display: inline-block; /*делаем чтобы ссылка из строчного элемента превратилась в строчно-блочный*/
   line-height: 1; /*Задаём высоту строки*/
   color:black;
@@ -146,23 +147,24 @@ flex-shrink: 0;
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  
+  border: none;
+}
+.header-call-button:hover {
+  opacity: 0.9;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.header-call-button:active {
+  opacity: 1;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
 .page-wrapper {
-  width: 1580px;
-  background-color: rgb(207, 207, 253);
+  width: 100%;
+  background-color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-align: center;
 }
